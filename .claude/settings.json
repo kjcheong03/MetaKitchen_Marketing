@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -L \"https://docs.heygen.com/reference/create-an-avatar-video-v2\" -A \"Mozilla/5.0\" -o /tmp/hg_video_generate.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -s -L \"https://docs.heygen.com/docs/create-video\" -A \"Mozilla/5.0\" -o /tmp/hg_create_video.html)",
+      "Bash(curl -s -L \"https://docs.heygen.com/reference/overview-1\" -A \"Mozilla/5.0\" -o /tmp/hg_overview.html)",
+      "Bash(curl -s -L \"https://docs.heygen.com/reference/avatar-iv\" -A \"Mozilla/5.0\" -o /tmp/hg_avatar_iv.html)",
+      "Bash(python3 -c ' *)",
+      "Bash(curl -s \"https://www.google.com/search?q=Instagram+Reel+hooks+2026+health+creators+retention+3+second\" -A \"Mozilla/5.0\")",
+      "Bash(curl -s \"https://duckduckgo.com/html/?q=Instagram+Reel+hook+patterns+2026+Indian+health+creator+Ryan+Fernando+Luke+Coutinho\" -A \"Mozilla/5.0\")",
+      "WebFetch(domain:docs.heygen.com)",
+      "WebFetch(domain:www.opus.pro)",
+      "WebFetch(domain:www.truefan.ai)",
+      "Bash(python -c ' *)",
+      "Bash(./.venv/Scripts/python.exe -c ' *)",
+      "Bash(./.venv/Scripts/pip.exe list *)"
+    ]
+  }
+}

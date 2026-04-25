@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aara Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              display: ["'Instrument Serif'", "ui-serif", "Georgia", "serif"],
+              sans: ["'Inter'", "ui-sans-serif", "system-ui", "sans-serif"],
+              mono: ["'JetBrains Mono'", "ui-monospace", "monospace"],
+            },
+            colors: {
+              ink: {
+                950: "#0A0A0A",
+                900: "#101010",
+                800: "#161616",
+                700: "#1E1E1E",
+                600: "#2A2A2A",
+                500: "#3A3A3A",
+                400: "#6B6B6B",
+                300: "#8F8F8C",
+                200: "#B8B5AE",
+                100: "#E6E2D8",
+                50: "#F3EFE6",
+              },
+              accent: {
+                DEFAULT: "#C9A96E",
+                soft: "#8A7347",
+              },
+            },
+            letterSpacing: {
+              wider: "0.08em",
+              widest: "0.16em",
+            },
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      html,
+      body,
+      #root {
+        height: 100%;
+      }
+      body {
+        font-family: "Inter", ui-sans-serif, system-ui, sans-serif;
+        background: #0a0a0a;
+        color: #e6e2d8;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      ::selection {
+        background: #c9a96e;
+        color: #0a0a0a;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
